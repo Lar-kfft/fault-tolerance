@@ -83,7 +83,7 @@ python3 -m http.server 9999
 cd ~/http3  
 echo "Server 3 :7777 (weight 4)" > index.html
 python3 -m http.server 7777
-
+```
 #### 2. Конфигурационный файл haproxy
 ```bash 
 global
